@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Cakes: 15 Delicious Recipes - Free E-book Download</title>
+    <meta
+      name="description"
+      content="Get your free Mini-Cakes e-book with 15 amazing recipes. Perfect portions, incredible flavors. Download instantly!"
+    />
+    <meta
+      name="keywords"
+      content="mini cakes, recipes, baking, e-book, free download, desserts"
+    />
+    <meta name="author" content="Mini-Cakes Recipes" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo">MINI-CAKES</a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="subtitle">The Ultimate</div>
+            <h1><span class="accent">Mini-Cake</span><br />Collection</h1>
+            <p>
+              Discover 15 extraordinary mini-cake recipes that bring gourmet
+              flavors to perfect bite-sized portions. From classic indulgences
+              to modern twists, master the art of miniature baking perfection.
+            </p>
+            <a href="#download" class="cta-button">Get Free E-book</a>
+          </div>
+
+          <div class="hero-visual">
+            <div class="main-cake-display">
+              <div class="cake-image" id="mainCake"></div>
+              <div class="cake-variants">
+                <div class="variant-item" data-cake="🧁">🧁</div>
+                <div class="variant-item" data-cake="🍰">🍰</div>
+                <div class="variant-item" data-cake="🎂">🎂</div>
+                <div class="variant-item" data-cake="🍪">🍪</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-in-up">
+      <div class="container">
+        <div class="stat-item">
+          <span class="stat-number">15</span>
+          <span class="stat-label">Unique Recipes</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">30</span>
+          <span class="stat-label">Minutes or Less</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100+</span>
+          <span class="stat-label">Step-by-Step Photos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">5★</span>
+          <span class="stat-label">Rated Recipes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section fade-in-up" id="download">
+      <div class="container">
+        <h2>Join the Mini-Cake Club</h2>
+        <p>
+          Get instant access to all 15 premium recipes and join thousands of
+          baking enthusiasts!
+        </p>
+
+        <div id="message" class="message"></div>
+
+        <form id="signup-form" class="signup-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                minlength="2"
+                maxlength="50"
+                pattern="[A-Za-z\s]+"
+                title="Please enter a valid first name (letters only)"
+                autocomplete="given-name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                maxlength="254"
+                autocomplete="email"
+                title="Please enter a valid email address"
+              />
+            </div>
+          </div>
+          <button type="submit" class="submit-btn">
+            Download Your Free E-book
+          </button>
+          <div class="security-badge">
+            Your information is secure and will never be shared
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 Mini-Cakes Collection. All rights reserved. | Savor the
+          Flavor, Join the Club!
+        </p>
+      </div>
+    </footer>
+
+    <!-- Link JS -->
+    <script src="script.js"></script>
+
+    <!-- Schema.org structured data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "Mini-Cakes: 15 Delicious Recipes",
+        "author": "Mini-Cakes Recipes",
+        "description": "Free e-book with 15 unique mini-cake recipes.",
+        "genre": "Cooking, Baking",
+        "inLanguage": "en"
+      }
+    </script>
+  </body>
+</html>
