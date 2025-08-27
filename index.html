@@ -29,8 +29,8 @@
       rel="stylesheet"
     />
 
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Header -->
@@ -40,8 +40,6 @@
           <a href="#" class="logo">MINI-CAKES</a>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#recipes">Recipes</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#download">Download</a></li>
           </ul>
         </nav>
@@ -160,19 +158,26 @@
       </div>
     </footer>
 
-    <!-- Link JS -->
+    <!-- JavaScript -->
     <script src="script.js"></script>
 
     <!-- Schema.org structured data for SEO -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Book",
-        "name": "Mini-Cakes: 15 Delicious Recipes",
-        "author": "Mini-Cakes Recipes",
-        "description": "Free e-book with 15 unique mini-cake recipes.",
-        "genre": "Cooking, Baking",
-        "inLanguage": "en"
+        "@type": "Product",
+        "name": "Mini-Cakes: 15 Delicious Recipes E-book",
+        "description": "Get your free Mini-Cakes e-book with 15 amazing recipes. Perfect portions, incredible flavors.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Mini-Cakes Collection"
+        }
       }
     </script>
   </body>
